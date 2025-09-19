@@ -96,15 +96,19 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
+    width: 100%;
     z-index: 2;
+    background-color: #fff;
+    border-top: 1px solid #d3d3d3;
+    box-shadow: 10px 5px 5px blue;
   }
 
   /* GUIDE 4: style nav as vertical panel */
   .nav a {
     display: block; 
     background-color: #fff;
-    padding: 20px 300px 20px 16px;
-    border-bottom: 1px solid #000;
+    padding: 16px;
+    border-bottom: 1px solid #d3d3d3;
   }
   /* 4-1) How the link inside of nav should be displayed? */  
 
